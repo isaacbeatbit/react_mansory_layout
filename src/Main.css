@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background: #61dafb;
+}
+
+.content {
+    display: grid;
+    /*flex-direction: column;*/
+    /*width: 1040px;*/
+    /*background: #282c34;*/
+}
+
+/* loading */
+.loading-items {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.skeleton {
+    background: gray;
+    width: 336px;
+    height: 4rem;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(3, 336px);
+    gap: 1rem;
+}
+
+/* photos */
+.columnPhotos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.photoItem {
+    border-radius: 0.5rem;
+}
